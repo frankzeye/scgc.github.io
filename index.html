@@ -7,6 +7,25 @@
             font-family: Arial, Helvetica, sans-serif;
             text-align:center;
             margin:0 auto;
+            width:50%;
+        }
+        /* Small tablets and larger mobile devices (481px - 768px) */
+        @media (min-width: 481px) {
+            body {
+                width:80%;
+            }
+        }
+        /* Tablets and small laptops (769px - 1024px) */
+        @media (min-width: 769px) {
+            body {
+                width:80%;
+            }
+        }
+        /* Large desktops and high-resolution screens (1025px and up) */
+            @media (min-width: 1025px) {
+            body {
+                width:50%;
+            }
         }
         a {text-decoration:underline;color:#333;}
         a:hover {text-decoration:none;color:#000;}
@@ -19,26 +38,26 @@
         }
         #nav {
             text-align:center;margin:60px auto;
-            width:50%;
+            
         }
         #nav ul {list-style:none;font-weight: 600;font-size: x-large;margin:0;padding:0;}
         #nav ul li {display: inline-block;padding:0 10px;}
         #nav ul li a {text-decoration: none;color:#333;}
         #nav ul li a:hover {color:#000;}
 
-        #upcoming-events {width:50%;margin:0 auto;}
+        #upcoming-events {margin:0 auto;}
         #upcoming-events table {border:#000 1px solid;font-size:larger;}
         #upcoming-events table tr {}
         #upcoming-events table tr td {width:50%;padding:20px;}
         #upcoming-events table tr td img {width:100%;}
 
-        #past-events {width:50%;margin:0 auto;}
+        #past-events {margin:0 auto;}
         #past-events table {border:#000 1px solid;font-size:larger;margin:0 0 20px 0;}
         #past-events table tr {}
         #past-events table tr td {width:50%;padding:20px;}
         #past-events table tr td img {width:100%;}
 
-        #merch {width:50%;margin:0 auto;}
+        #merch {margin:0 auto;}
         #merch table {border:#000 1px solid;font-size:larger;margin:0 0 20px 0;}
         #merch table tr {}
         #merch table tr td {width:50%;padding:20px;}
